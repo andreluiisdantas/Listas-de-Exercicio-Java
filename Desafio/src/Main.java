@@ -65,7 +65,7 @@ public class Main {
                 DateTimeFormatter formatador = DateTimeFormatter.ofPattern("HH:mm:ss");
                 String horarioFormatado = horarioDaColisao.format(formatador);
 
-                System.out.printf("KM %d, %d segundos, %s\n", (int)localDaColisao, (int)tempoParaColidir, horarioFormatado);
+                System.out.printf("A colisão dos trens ocorrerá no KM %d e ocorrerá após %d segundos no horário de %s\n", (int)localDaColisao, (int)tempoParaColidir, horarioFormatado);
             }
 
             System.out.print("Deseja executar novamente? (s/n): ");
